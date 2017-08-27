@@ -1,0 +1,25 @@
+h1 {
+    color: red;
+}
+
+body {
+    
+    direction: rtl;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.products-list{
+    list-style: none;
+    margin-right: 0;
+    padding-right: 0;
+}
+#total{
+    border:1px solid #000;
+    height: 25px;
+}
+.product:checked + .product-label{
+    background-color: yellow;
+}
